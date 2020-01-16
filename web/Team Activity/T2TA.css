@@ -1,0 +1,15 @@
+.first_div{
+    background-color: rgb(133, 72, 109);
+    font-size: 5em;
+}
+#div2{
+    background-color: rgb(211, 211, 111);
+    font-size: 16pt;
+}
+#div3{
+    background-color: rgb(76, 223, 137);
+    font-size: 20pt;
+}
+div:hover {
+    font-weight: bold;
+}
