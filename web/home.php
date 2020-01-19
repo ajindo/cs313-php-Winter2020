@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link href="homepage.css" rel="stylesheet" type="text/css">
-<script src="homepage.js"></script>
-<title>Atsushi's Home</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <head>
 
-<script> 
-    // This idea was taken and used from https://www.w3schools.com/jquery/jquery_css.asp
-    $(document).ready(function(){
-      $("#button3").click(function(){
-        $("div").css("background-color", "yellow");
-      });
-    });
-    // This idea was taken and used from https://www.w3schools.com/jquery/jquery_fade.asp
-    $(document).ready(function(){
-      $("#button4").click(function(){
-        $("#div3").fadeOut(3000);
+  <title>Atsushi's Home</title>
+
+  </head>
+
+  <body>
         
-      });
-    });
-</script>
-</head>
-
-<body>
-    
-    <div class="div1" id="first_div">
-    This is the first div!
-    </div>
-    <div class="" id="div2"> 
-    This is the second div!
-    </div>
-    <div class="" id="div3">
-    This is the third div!
-    </div>
-    <input type="button" value="Click Me" onclick="clickMe();">
-    <br/>
-    <br/>
-    
-    <label for="colorText">Color:</label>
-    <input type="text" id="colorText"></input>
-    <button onclick="changeColor();">Change Color For Div1</button><br/>
-    <button id = "button3" onclick="clickForChange();">Change All Colors</button><br/>
-    <button id = "button4" onclick="clickForChange();">Fading Out</button>
-</body>
+        <div id="home1">
+          <div id="home2"> 
+            <?php
+                require('page_header.php')?>
+            <div id="home3">
+                <div>
+                  <img src="visa picture.jpg">
+                </div>
+                <div>
+                  <h2>Biography</h2>
+                  <p>Atsushi Jindo</p>
+                  <p>Major:     Computer Science</p>
+                  <p>Graduate:  2020</p>
+                  <p>I am going to Brigham Young University - Idaho. My hobby is playing sports(Basketball, Valleyball, and Tennis), watching movies, and playing PC game(League of Legends).
+                </div> 
+                <div>
+                  <p>Learning Programming Language:C++, C, Python, Java, HTML, PHP, CSS, Javascript, Swift</p>
+                  <p>Most interesting programming language is Python now. I want to create a useful AI in the future!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+  </body>
 </html>
