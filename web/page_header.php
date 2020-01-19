@@ -4,7 +4,7 @@
         href="home.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "home.php"){
-                echo "class=\"active\"";
+                echo "class=\"hover\"";
             }
         ?>
     >
@@ -15,7 +15,7 @@
         href="assignment.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
-                echo "class=\"active\"";
+                echo "class=\"hover\"";
             }
         ?>
     >
