@@ -20,7 +20,7 @@
     width: 100%;
 }
   
-.navbar a.hover {
+.navbar a.active {
     float: left;
     display: block;
     color: #f2f2f2;
