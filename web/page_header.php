@@ -8,7 +8,7 @@
             }
         ?>
     >
-    <a>Home</a>
+    Home
     </div>
     
     <div
@@ -19,6 +19,6 @@
             }
         ?>
     >
-    <a>Assignment</a>
+    Assignment
     </div>
 </div>
