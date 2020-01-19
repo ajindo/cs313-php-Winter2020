@@ -11,7 +11,8 @@
         <div id="home1">
           <div id="home2"> 
             <?php
-                require('page_header.php')?>
+                require('page_header.php')
+            ?>
             <div id="home3">
                 <div>
                   <img src="visa picture.jpg">

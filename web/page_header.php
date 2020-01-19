@@ -1,19 +1,19 @@
 <link rel="stylesheet" type="text/css" href="homepage.css">
 <h1>Atsushi's Home Page</h1>
 <div>
-    <p  herf="home.php"
+    <a  herf="home.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "home.php"){
                 echo "class=\"active\"";
             }
         ?>
-    >Home Page</p>
+    >Home Page</a>
     
-    <p  herf="assignmen.php"
+    <a  herf="assignmen.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
                 echo "class=\"active\"";
             }
         ?>
-    >Assignment</p>
+    >Assignment</a>
 </div>
