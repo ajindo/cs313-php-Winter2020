@@ -16,7 +16,7 @@
                 <div>
                   <img src="visa picture.jpg">
                 </div>
-                <div>
+                <div id="home4">
                   <h2>Biography</h2>
                   <p>Atsushi Jindo</p>
                   <p>Major:     Computer Science</p>
