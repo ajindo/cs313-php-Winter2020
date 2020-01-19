@@ -2,11 +2,7 @@
 <div class = "navbar">
     <a
         href="home.php"
-        <?php
-            if(basename($_SERVER['PHP_SELF']) == "home.php"){
-                echo "class=\"active\"";
-            }
-        ?>
+        
     >
     Home
     </a>
