@@ -16,6 +16,6 @@
                 echo "class=\"active\"";
             }
         ?>
-        href="assignmen.php"
+        href="assignment.php"
     >Assignment</a>
 </div>
