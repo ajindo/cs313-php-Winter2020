@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="homepage.css">
 <div id="header1" class = "navbar">
-    <div
+    <a
         href="home.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "home.php"){
@@ -9,9 +9,9 @@
         ?>
     >
     Home
-    </div>
+    </a>
     
-    <div
+    <a
         href="assignment.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
@@ -20,5 +20,5 @@
         ?>
     >
     Assignment
-    </div>
+    </a>
 </div>
