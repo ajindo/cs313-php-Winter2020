@@ -11,7 +11,7 @@
     <a>Home</a>
     </div>
     
-    <div  class
+    <div  class ="navbar"
         href="assignment.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
