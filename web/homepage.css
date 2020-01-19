@@ -18,7 +18,7 @@
     width: 100%;
 }
   
-.navbar a {
+.navbar div.active {
     float: left;
     display: block;
     color: #f2f2f2;
