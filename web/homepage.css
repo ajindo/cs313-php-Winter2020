@@ -10,7 +10,9 @@
 #home5{
     font-size: 15px;
 }
-#navbar {
+.navbar {
+    margin-left: -10px;
+    margin-right: -10px;
     overflow: hidden;
     background-color: #333;
     position: fixed;
@@ -18,7 +20,7 @@
     width: 100%;
 }
   
-#navbar a.hover {
+.navbar a.hover {
     float: left;
     display: block;
     color: #f2f2f2;
