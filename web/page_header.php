@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="homepage.css">
-<div id="header1" class = "navbar">
+<div id="header1" >
     <a
         href="home.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "home.php"){
-                echo "class=\"hover\"";
+                echo "id=\"hover\"";
             }
         ?>
     >
@@ -15,7 +15,7 @@
         href="assignment.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
-                echo "class=\"hover\"";
+                echo "id=\"hover\"";
             }
         ?>
     >
