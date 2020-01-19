@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="homepage.css">
-<div id="header1" >
+<div id="navbar" >
     <a
         href="home.php"
         <?php
