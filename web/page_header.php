@@ -7,7 +7,7 @@
                 echo "class=\"active\"";
             }
         ?>
-        herf="home.php"
+        href="home.php"
     >Home</a>
     
     <a  
@@ -16,6 +16,6 @@
                 echo "class=\"active\"";
             }
         ?>
-        herf="assignmen.php"
+        href="assignmen.php"
     >Assignment</a>
 </div>
