@@ -8,7 +8,7 @@
 <body>
     <div>
         <?php require('page_header.php') ?>
-        <p>Comming Soon!</p>
+        <p font-size: >Comming Soon!</p>
     </div>
 </body>
 

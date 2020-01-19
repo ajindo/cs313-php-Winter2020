@@ -1,21 +1,20 @@
 <link rel="stylesheet" type="text/css" href="homepage.css">
-<h1>Atsushi's Home Page</h1>
 <div id="header1">
     <a  
+        href="home.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "home.php"){
                 echo "class=\"active\"";
             }
         ?>
-        href="home.php"
     >Home</a>
     
     <a  
+        href="assignment.php"
         <?php
             if(basename($_SERVER['PHP_SELF']) == "assignment.php"){
                 echo "class=\"active\"";
             }
         ?>
-        href="assignment.php"
     >Assignment</a>
 </div>
