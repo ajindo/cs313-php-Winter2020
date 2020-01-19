@@ -7,9 +7,10 @@
 #home4{
     font-size: 20pt;
 }
-#home5{
+#home5 p {
     font-size: 15px;
 }
+
 .navbar {
     margin-left: -10px;
     margin-right: -10px;
@@ -36,6 +37,5 @@ img{
     width: 200px;
 }
 body{
-    
     font-weight: bold;
 }

@@ -22,7 +22,10 @@
                   <p>Atsushi Jindo</p>
                   <p>Major:     Computer Science</p>
                   <p>Graduate:  2020</p>
-                  <p>I am going to Brigham Young University - Idaho. My hobby is playing sports(Basketball, Valleyball, and Tennis), watching movies, and playing PC game(League of Legends).
+                  <p>I study at Brigham Young University - Idaho.
+                     My hobby is playing sports(Basketball, Valleyball, and Tennis),
+                      watching movies, and playing PC game(League of Legends).
+                  </p>
                 </div> 
                 <div id="home5"> 
                   <p>Learning Programming Language:C++, C, Python, Java, HTML, PHP, CSS, Javascript, Swift</p>
