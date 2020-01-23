@@ -7,4 +7,10 @@
 
 ?>
 <h1>Your favorite color is<?php $c?> and your favorite animal is <?php $a?></h1>
-<?php ?>
+
+
+<?php 
+   if(isset($_SESSION['pictureUrl'])){ ?>
+   <h3> Just for kicks from a form</h3>
+   <img src="<?=$_SESSION['pictureUrl']?>"/>
+<?php }?>
