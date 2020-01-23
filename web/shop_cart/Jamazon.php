@@ -58,7 +58,7 @@
                     <i class="fa fa-minus" aria-hidden="true"></i>
                     </button>
                 </div>
-                <input class="input-group-field" type="number" name="quantity" value="0">
+                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
                 <div class="input-group-button">
                     <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
                     <i class="fa fa-plus" aria-hidden="true"></i>
