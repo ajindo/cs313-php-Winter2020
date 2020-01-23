@@ -3,13 +3,15 @@
   //phpinfo();
 
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Home Page<title>
+  <head>
 
-</head>
-<body>
+  <title>Atsushi's Home</title>
+
+  </head>
+
+  <body>
         
         <div id="home1">
           <div id="home2"> 
