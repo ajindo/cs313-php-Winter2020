@@ -13,6 +13,18 @@
 #assignment_p{
     font-size: 50px;
 }
+#bt {
+    font-size: 10px;
+}
+#bt:img{
+    height: 150px;
+    width: 150px;
+}
+
+#profile:img{
+    height: 200px;
+    width: 200px;
+}
 /** I took this menu bar idea from w3school. (https://www.w3schools.com/howto/howto_css_fixed_menu.asp) **/
 .navbar { 
     margin-left: -10px;
@@ -35,10 +47,33 @@
     color: black;
 }
 
-img{
-    height: 200px;
-    width: 200px;
-}
 body{
     font-weight: bold;
 }
+
+/** I took this button fomr this side. https://foundation.zurb.com/building-blocks/blocks/plus-minus-input.html **/
+.plus-minus-input {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .plus-minus-input .input-group-field {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+  }
+  
+  .plus-minus-input .input-group-button .circle {
+    border-radius: 20%;
+    padding: 0.25em 0.8em;
+  }
+  
+  

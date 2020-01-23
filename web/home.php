@@ -15,7 +15,7 @@
             ?>
             <div id="home3">
                 <div>
-                  <img src="visa picture.jpg">
+                  <img id="profile" src="visa picture.jpg">
                 </div>
                 <div id="home4">
                   <h2>Biography</h2>

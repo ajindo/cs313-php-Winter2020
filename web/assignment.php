@@ -8,7 +8,7 @@
 <body>
     <div>
         <?php require('page_header.php') ?>
-        <p id="assignment_p">Comming Soon!</p>
+        <p id="prove3" href="Jamazon.php">Prove 3 - Shopping Cart</p>
     </div>
 </body>
 
