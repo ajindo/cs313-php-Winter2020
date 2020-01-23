@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="homepage.css">
+<link rel="stylesheet" type="text/css" href="../homepage.css">
 <script src="functions.js"></script>
 <title>Shopping Cart</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -52,9 +52,9 @@
                 <image src="black_thunder.jpg">
                 <p>Black Thunder</p>
                 <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
-                <div class="input-group plus-minus-input" value="+">
-                <div class="input-group-button" values="-">
-                    <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
+                <div class="input-group plus-minus-input">
+                <div class="input-group-button">
+                    <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity" value="-">
                     <i class="fa fa-minus" aria-hidden="true"></i>
                     </button>
                 </div>
