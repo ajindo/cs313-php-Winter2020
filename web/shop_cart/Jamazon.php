@@ -70,7 +70,7 @@
                 </a>
             </li>
             <li>
-                Mitsuya Cyder Candy
+                Mitsuya Cider Candy
             </li>
             <li>
                 Soy Souce

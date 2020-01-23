@@ -61,9 +61,9 @@ body{
   
   .plus-minus-input .input-group-field {
     text-align: center;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    padding: 1rem;
+    margin-left: 0.5m;
+    margin-right: 0.5m;
+    padding: 1m;
   }
   
   .plus-minus-input .input-group-field::-webkit-inner-spin-button,
