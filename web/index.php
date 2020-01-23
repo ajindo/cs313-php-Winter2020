@@ -19,7 +19,7 @@
                 require('page_header.php')
             ?>
             <div id="home3">
-                <div>
+                <div id="profile">
                   <img src="visa picture.jpg">
                 </div>
                 <div id="home4">

@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<link href="homepage".css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="homepage.css">
 <script src="functions.js"></script>
 <title>Shopping Cart</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-    <body>
+    <body class="Jamazon">
         <ul>
             <li>
                 <a id="bt">

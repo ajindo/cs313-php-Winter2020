@@ -16,14 +16,15 @@
 #bt {
     font-size: 10px;
 }
-#bt:img{
-    height: 150px;
-    width: 150px;
-}
 
-#profile:img{
+
+#profile img{
     height: 200px;
     width: 200px;
+}
+.Jamazon img {
+    height: 150px;
+    width: 150px;
 }
 /** I took this menu bar idea from w3school. (https://www.w3schools.com/howto/howto_css_fixed_menu.asp) **/
 .navbar { 
