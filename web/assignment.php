@@ -8,7 +8,7 @@
 <body>
     <div>
         <?php require('page_header.php') ?>
-        <p id="prove3" href="/shop_cart/Jamazon.php">Prove 3 - Shopping Cart</p>
+        <a id="prove3" href="/shop_cart/Jamazon.php">Prove 3 - Shopping Cart</a>
     </div>
 </body>
 
