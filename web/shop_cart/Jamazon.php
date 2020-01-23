@@ -50,10 +50,10 @@
             <li>
                 <a id="bt">
                 <image src="black_thunder.jpg">
-                    Black Thunder
+                <p>Black Thunder</p>
                 <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
-                <div class="input-group plus-minus-input">
-                <div class="input-group-button">
+                <div class="input-group plus-minus-input" value="+">
+                <div class="input-group-button" values="-">
                     <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
                     <i class="fa fa-minus" aria-hidden="true"></i>
                     </button>
