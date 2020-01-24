@@ -46,29 +46,27 @@
 </script>
 </head>
     <body class="Jamazon">
-        
-            <p>
                 <a id="bt">
                 <image src="black_thunder.jpg">
                 <p>Black Thunder</p>
                 <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
-                <div class="input-group plus-minus-input">
-                <div class="input-group-button">
-                    <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
-                    <i class="fa fa-minus" aria-hidden="true"></i>
-                    </button>
+                <div class="plus_minus_section">
+                    <div class="input-group plus-minus-input">
+                        <div class="input-group-button">
+                            <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                            <input class="input-group-field" type="number" name="quantity" value="0" size="4">
+                        <div class="input-group-button">
+                            <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
-                <div class="input-group-button">
-                    <button type="button" class="circle" data-quantity="plus" data-field="quantity">
-                    <i class="fa fa-plus" aria-hidden="true"></i>
-                    </button>
-                </div>
-                </div>
-
 
                 </a>
-            </p>
             <p>
                 Mitsuya Cider Candy
             </p>

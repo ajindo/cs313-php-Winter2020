@@ -81,4 +81,6 @@ body{
     display: flex;
   }
   
-  
+  div.plus_minus_section{
+    margin-left: 120 px;
+  }
