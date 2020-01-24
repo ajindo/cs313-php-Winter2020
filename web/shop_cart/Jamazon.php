@@ -47,7 +47,7 @@
 </head>
     <body class="Jamazon">
         
-            <li>
+            <p>
                 <a id="bt">
                 <image src="black_thunder.jpg">
                 <p>Black Thunder</p>
@@ -68,34 +68,34 @@
 
 
                 </a>
-            </li>
-            <li>
+            </p>
+            <p>
                 Mitsuya Cider Candy
-            </li>
-            <li>
+            </p>
+            <p>
                 Soy Souce
-            </li>
-            <li>
+            </p>
+            <p>
                 NONIO(Tooth Paste)
-            </li>
-            <li>
+            </p>
+            <p>
                 Hair Wax
-            </li>
-            <li>
+            </p>
+            <p>
                 Mayo
-            </li>
-            <li>
+            </p>
+            <p>
                 Ketchup
-            </li>
-            <li>
+            </p>
+            <p>
                 Pepper & Salt
-            </li>
-            <li>
+            </p>
+            <p>
                 Deodorant
-            </li>
-            <li>
+            </p>
+            <p>
                 Nail Clipper
-            </li>
+            </p>
         
 
     </body>
