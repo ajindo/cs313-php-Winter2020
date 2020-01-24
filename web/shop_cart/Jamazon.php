@@ -48,7 +48,7 @@
     <body class="Jamazon">
                 <a id="bt">
                 <image src="black_thunder.jpg">
-                <p>Black Thunder</p>
+                Black Thunder
                 <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
                 <div class="plus_minus_section">
                     <div class="input-group plus-minus-input">
