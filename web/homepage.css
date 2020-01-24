@@ -68,12 +68,6 @@ body{
     color: black;
   }
   
-  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
-  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-            appearance: none;
-  }
-  
   .plus-minus-input .input-group-button .circle {
     border-radius: 20%;
     padding: 0.25em 0.8em;
