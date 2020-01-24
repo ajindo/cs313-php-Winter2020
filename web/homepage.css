@@ -79,6 +79,7 @@ body{
   
   .plus-minus-input .input-group-button .circle {
     display: flex;
+    border-radius: 50%
   }
   
   div.plus_minus_section{
