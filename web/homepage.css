@@ -65,7 +65,14 @@ body{
     margin-left: 0.5em;
     margin-right: 0.5em;
     width: 1em;
-    color: black;
+    
+  }
+  
+  .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+  .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+            color: black;
   }
   
   .plus-minus-input .input-group-button .circle {
