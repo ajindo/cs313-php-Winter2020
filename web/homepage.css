@@ -76,8 +76,6 @@ body{
   }
   
   .plus-minus-input .input-group-button .circle {
-    border-radius: 20%;
-    padding: 0.25em 0.8em;
     display: flex;
   }
   
