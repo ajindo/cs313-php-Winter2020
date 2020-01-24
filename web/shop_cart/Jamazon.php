@@ -46,7 +46,7 @@
 </script>
 </head>
     <body class="Jamazon">
-        <ul>
+        
             <li>
                 <a id="bt">
                 <image src="black_thunder.jpg">
@@ -96,7 +96,7 @@
             <li>
                 Nail Clipper
             </li>
-        </ul>
+        
 
     </body>
 </html>
