@@ -65,6 +65,7 @@ body{
     margin-left: 0.5em;
     margin-right: 0.5em;
     width: 1em;
+    color: black;
   }
   
   .plus-minus-input .input-group-field::-webkit-inner-spin-button,
