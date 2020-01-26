@@ -11,4 +11,10 @@
     >
     Assignment
     </a>
+
+    <a
+        href="log_in_out.php"
+    >
+    Log in
+    </a>
 </div>

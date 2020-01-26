@@ -8,9 +8,7 @@
   <head>
 
   <title>Atsushi's Home</title>
-
   </head>
-
   <body>
         
         <div id="home1">
