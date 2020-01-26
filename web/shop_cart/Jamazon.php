@@ -93,7 +93,7 @@
                 <a>
                     <image src="hair_wax.jpg">
                     Hair Wax
-                    <input type= "textbox" name="quantity5">
+                    <input type= "textbox" name="quantity5" <?$hw?>>
                 </a>
             <input type="submit" name="addCart" value="Add to Cart">
         </form>   
