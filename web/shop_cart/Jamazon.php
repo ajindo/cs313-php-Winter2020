@@ -11,7 +11,7 @@
 <script src="functions.js"></script>
 <title>Shopping Cart</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!--
+
 <script>
     jQuery(document).ready(function(){
     // This button will increment the value
@@ -50,14 +50,14 @@
     });
 });
 
-</script> -->
+</script> 
 </head>
     <body class="Jamazon">
         <form action="" method="post">
                 <a id="bt">
                     <image src="black_thunder.jpg">
                     Black Thunder
-                    <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons
+                    <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons -->
                     <div class="plus_minus_section">
                         <div class="input-group plus-minus-input">
                             <div class="input-group-button">
@@ -72,34 +72,89 @@
                                 </button>
                             </div>
                         </div>
-                    </div>-->
-                    <input type= "textbox" name="quantity1">
+                    </div>
                 </a>
                 <a>
                     <image src="candy.jpg">
                     Mitsuya Cider Candy
-                    <input type= "textbox" name="quantity2">
+                    <div class="plus_minus_section">
+                        <div class="input-group plus-minus-input">
+                            <div class="input-group-button">
+                                <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
+                            <div class="input-group-button">
+                                <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </a>
                 <a>
                     <image src="soy_souce.jpg">
                     Soy Souce
-                    <input type= "textbox" name="quantity3">
+                    <div class="plus_minus_section">
+                        <div class="input-group plus-minus-input">
+                            <div class="input-group-button">
+                                <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
+                            <div class="input-group-button">
+                                <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </a>
                 <a>
                     <image src="NONIO.png">
                     NONIO(Tooth Paste)
-                    <input type= "textbox" name="quantity4">
+                    <div class="plus_minus_section">
+                        <div class="input-group plus-minus-input">
+                            <div class="input-group-button">
+                                <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
+                            <div class="input-group-button">
+                                <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </a>
                 <a>
                     <image src="hair_wax.jpg">
                     Hair Wax
-                    <input type= "textbox" name="quantity5" >
+                    <div class="plus_minus_section">
+                        <div class="input-group plus-minus-input">
+                            <div class="input-group-button">
+                                <button type="button" class="cricle" data-quantity="minus" data-field="quantity" value="-">
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                                <input class="input-group-field" type="number" name="quantity" value="0" size="4">
+                            <div class="input-group-button">
+                                <button type="button" class="circle" data-quantity="plus" data-field="quantity">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </a>
             <input type="submit" name="addCart" value="Add to Cart">
         </form>   
         <?php 
             if(isset($_POST['addCart'])){
-                $_SESSION['pictureUrl'] = $_POST['picture'];
+                ;
              }
           ?>
         ?>
